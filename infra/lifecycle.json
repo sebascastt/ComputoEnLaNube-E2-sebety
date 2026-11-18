@@ -1,0 +1,39 @@
+{
+  "Rules": [
+    {
+      "ID": "raw-documentos-tiering-y-retencion-SAT",
+      "Filter": { "Prefix": "raw/documentos/" },
+      "Status": "Enabled",
+      "Transitions": [
+        { "Days": 30,  "StorageClass": "STANDARD_IA" },
+        { "Days": 90,  "StorageClass": "GLACIER_IR" },
+        { "Days": 365, "StorageClass": "DEEP_ARCHIVE" }
+      ],
+      "Expiration": { "Days": 1830 }
+    },
+    {
+      "ID": "raw-extraidos-retener-1-anio",
+      "Filter": { "Prefix": "raw/extraidos/" },
+      "Status": "Enabled",
+      "Expiration": { "Days": 365 }
+    },
+    {
+      "ID": "rechazados-limpieza-90-dias",
+      "Filter": { "Prefix": "rechazados/" },
+      "Status": "Enabled",
+      "Expiration": { "Days": 90 }
+    },
+    {
+      "ID": "athena-results-limpieza-7-dias",
+      "Filter": { "Prefix": "athena-results/" },
+      "Status": "Enabled",
+      "Expiration": { "Days": 7 }
+    },
+    {
+      "ID": "todo-el-bucket-cargas-incompletas",
+      "Filter": { "Prefix": "" },
+      "Status": "Enabled",
+      "AbortIncompleteMultipartUpload": { "DaysAfterInitiation": 7 }
+    }
+  ]
+}
