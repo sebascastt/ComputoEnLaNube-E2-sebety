@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="705512" Fecha="2026-09-04T15:23:00"
+  SubTotal="130.04" Moneda="MXN" Total="150.85" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="CAF950203NMM" Nombre="CAFETERIA AROMA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="COFB900709C6U" Nombre="FRANCISCO CORRAL" UsoCFDI="G03"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="TE CHAI" ValorUnitario="130.04" Importe="130.04" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="20.81"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="95A5BAFA-431D-029F-AC1E-86D8BFBF397B" FechaTimbrado="2026-09-04T15:23:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

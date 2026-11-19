@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="461695" Fecha="2026-09-04T21:54:00"
+  SubTotal="711.76" Moneda="MXN" Total="825.64" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="PAP940124QE7" Nombre="PAPELERIA EL LAPIZ" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="AREU970422L1C" Nombre="ESPARTACO ARREOLA" UsoCFDI="G01"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="FOLDER" ValorUnitario="233.50" Importe="233.50" ObjetoImp="02"/>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="3" ClaveUnidad="H87" Descripcion="CUADERNO" ValorUnitario="159.42" Importe="478.26" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="113.88"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="74F93D17-E912-B4BF-86A4-BAE41986B4B2" FechaTimbrado="2026-09-04T21:54:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="085570" Fecha="2026-09-12T11:24:00"
+  SubTotal="187.46" Moneda="MXN" Total="217.45" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="CAF950203NMM" Nombre="CAFETERIA AROMA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="AREU970422L1C" Nombre="ESPARTACO ARREOLA" UsoCFDI="G01"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="TE CHAI" ValorUnitario="187.46" Importe="187.46" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="29.99"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="519554E3-0737-4C86-397B-5F515FFA46EF" FechaTimbrado="2026-09-12T11:24:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

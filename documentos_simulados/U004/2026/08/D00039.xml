@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="423809" Fecha="2026-08-11T09:49:00"
+  SubTotal="151.81" Moneda="MXN" Total="176.10" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="SER990423CX1" Nombre="SERVICIOS DIGITALES NUBE SA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="AREU970422L1C" Nombre="ESPARTACO ARREOLA" UsoCFDI="G01"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="DOMINIO .MX" ValorUnitario="151.81" Importe="151.81" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="24.29"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="FCF56188-D32E-6DCD-83BC-9478DD6AC7B8" FechaTimbrado="2026-08-11T09:49:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

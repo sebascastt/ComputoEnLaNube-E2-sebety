@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="362832" Fecha="2026-10-11T19:14:00"
+  SubTotal="413.63" Moneda="MXN" Total="479.81" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="FAR981001UZZ" Nombre="FARMACIA SAN RAFAEL" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="COFB900709C6U" Nombre="FRANCISCO CORRAL" UsoCFDI="G03"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="ALCOHOL 250ML" ValorUnitario="240.37" Importe="240.37" ObjetoImp="02"/>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="2" ClaveUnidad="H87" Descripcion="PARACETAMOL" ValorUnitario="86.63" Importe="173.26" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="66.18"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="E519DD7E-84D6-7C4F-F0DF-1684F28E4122" FechaTimbrado="2026-10-11T19:14:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
