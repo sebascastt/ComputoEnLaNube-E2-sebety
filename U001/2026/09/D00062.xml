@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="625186" Fecha="2026-09-11T20:36:00"
+  SubTotal="627.70" Moneda="MXN" Total="728.13" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="SUP980219PBH" Nombre="SUPER MERCADO DEL VALLE" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="NÁCC870213KWN" Nombre="CLAUDIA NÁJERA" UsoCFDI="G01"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="2" ClaveUnidad="H87" Descripcion="PAPEL HIGIENICO" ValorUnitario="163.29" Importe="326.58" ObjetoImp="02"/>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="2" ClaveUnidad="H87" Descripcion="YOGURT" ValorUnitario="150.56" Importe="301.12" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="100.43"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="27D415B6-0D77-C5A0-E222-B6A615BFBE97" FechaTimbrado="2026-09-11T20:36:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

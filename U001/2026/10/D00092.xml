@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="405117" Fecha="2026-10-18T12:04:00"
+  SubTotal="299.04" Moneda="MXN" Total="346.89" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="PAP940124QE7" Nombre="PAPELERIA EL LAPIZ" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="NÁCC870213KWN" Nombre="CLAUDIA NÁJERA" UsoCFDI="G03"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="3" ClaveUnidad="H87" Descripcion="MEMORIA USB" ValorUnitario="99.68" Importe="299.04" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="47.85"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="8CC36F3B-C3AF-FCFE-734A-6CA38116E3FC" FechaTimbrado="2026-10-18T12:04:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
