@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+# Los datos simulados se regeneran con src/generar_datos.py
+datos_simulados/
+.DS_Store
