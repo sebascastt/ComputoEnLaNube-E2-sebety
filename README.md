@@ -1,4 +1,4 @@
-# E2_EQxx · Digitalización de facturas y tickets en AWS
+# E2_EQBeatrizSebastian · Digitalización de facturas y tickets en AWS
 
 **Cómputo en la Nube · Entrega 2**
 Beatriz León Hernández (0304701) · Sebastián Castillo Femenías (0243380)
