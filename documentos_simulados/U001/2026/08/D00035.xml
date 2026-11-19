@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+  Version="4.0" Serie="A" Folio="305408" Fecha="2026-08-23T17:30:00"
+  SubTotal="455.00" Moneda="MXN" Total="527.80" TipoDeComprobante="I"
+  MetodoPago="PUE" FormaPago="04" LugarExpedicion="06000" Exportacion="01">
+  <cfdi:Emisor Rfc="GAS960415V3A" Nombre="GASOLINERA EL PINAR" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="NÁCC870213KWN" Nombre="CLAUDIA NÁJERA" UsoCFDI="G03"
+    DomicilioFiscalReceptor="06000" RegimenFiscalReceptor="612"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="MAGNA LITROS" ValorUnitario="119.34" Importe="119.34" ObjetoImp="02"/>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="3" ClaveUnidad="H87" Descripcion="PREMIUM LITROS" ValorUnitario="47.65" Importe="142.95" ObjetoImp="02"/>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="H87" Descripcion="ADITIVO" ValorUnitario="192.71" Importe="192.71" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="72.80"/>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="B4FB0EB9-49C1-3DE7-3B42-06C5085B15FB" FechaTimbrado="2026-08-23T17:30:30"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
